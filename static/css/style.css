@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(246, 252, 255);
+}
+
+nav,
+footer {
+  background-color: #0894f8;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: smaller;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-height: 600px !important;
+}
+
+.box {
+  background-color: white;
+  position: relative;
+  border-radius: 50px;
+  width: 100%;
+  height: fit-content;
+}
+
+.carousel-item {
+  max-height: 600px !important;
+}
+
+section:nth-child(odd) {
+  background-color: white;
+}
+
+section:nth-child(even) {
+  background-color: #e2f3ff;
+}
+
+.errorMessage,
+#errorMessage {
+  color: red;
+  font-size: small;
+}

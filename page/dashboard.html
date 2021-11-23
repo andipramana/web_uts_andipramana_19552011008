@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../static/css/bootstrap.min.css"
+      media="screen,projection"
+    />
+    <link rel="stylesheet" href="../static/css/dashboard.css" />
+    <title>Accordion</title>
+  </head>
+
+  <body>
+    <div class="box mx-3">
+      <div class="box-body">
+        <div class="sidebar shadow d-none d-md-block my-3 ms-3 me-4 p-5">
+          <div id="logo" class="sidebar-item mb-5"><p>Accordion</p></div>
+          <div class="sidebar-item"><p>My Activity</p></div>
+          <hr class="mb-4" />
+          <div class="sidebar-item"><p>Activity Analizer</p></div>
+          <hr class="mb-4" />
+          <div class="sidebar-item"><p>Decision Maker</p></div>
+          <hr class="mb-4" />
+          <div id="logout" class="sidebar-item mb-5">
+            <button class="btn btn-danger" onclick="logout()">Logout</button>
+          </div>
+        </div>
+
+        <div class="content me-3 my-3">
+          <div class="content-header">
+            <h1 id="content-header-title">My Activity</h1>
+          </div>
+          <hr />
+
+          <div class="content-body">
+            <form action="#">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Check In</th>
+                    <th scope="col">Check Out</th>
+                    <th scope="col">Project</th>
+                    <th scope="col">Activity</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>01-01-2021</td>
+                    <td>07:50</td>
+                    <td>17:01</td>
+                    <td>HRMS</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>01-01-2021</td>
+                    <td>07:50</td>
+                    <td>17:01</td>
+                    <td>HRMS</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>01-01-2021</td>
+                    <td>07:50</td>
+                    <td>17:01</td>
+                    <td>HRMS</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+            <button class="btn btn-primary">Add Activity</button>
+          </div>
+        </div>
+      </div>
+      <div class="box-footer">
+        <footer>
+          <div class="row justify-content-center">
+            <p class="col-md-auto text-light p-2">
+              @Copyright by 19552011008 Andi Pramana - TIF-RM-19 CID
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="../static/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <script type="text/javascript" src="../static/js/dashboard.js"></script>
+  </body>
+</html>

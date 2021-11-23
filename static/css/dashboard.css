@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(246, 252, 255);
+}
+
+nav,
+footer {
+  background-color: #0894f8;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: smaller;
+}
+
+#logo {
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.box-body {
+  height: 650px;
+  position: relative;
+  display: flex;
+}
+
+.sidebar {
+  background-color: white;
+  width: 330px !important;
+  height: 570px;
+  position: relative;
+  border-radius: 50px;
+}
+
+.sidebar-item {
+  font-size: larger;
+  font-weight: 500;
+  color: #003358;
+}
+
+.sidebar-item:hover {
+  cursor: pointer;
+}
+
+#logout {
+  position: absolute;
+  bottom: 0;
+}
+
+.content {
+  width: 100%;
+}
+
+.content-body {
+}
